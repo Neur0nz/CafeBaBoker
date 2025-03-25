@@ -2,6 +2,7 @@
 title: "About"
 date: 2024-03-20
 draft: false
+showToC: false
 ---
 
 Welcome to Cafe BaBoker (קפה בבוקר), a collaborative blogging site where a few friends share their thoughts on:
