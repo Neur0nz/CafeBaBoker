@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:11317/he/categories/</loc>
+    <loc>http://localhost:1313/NPBlog/he/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:11317/en/categories/"
+                hreflang="en"
+                href="http://localhost:1313/NPBlog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
-                href="http://localhost:11317/he/categories/"
+                href="http://localhost:1313/NPBlog/he/categories/"
                 />
   </url><url>
-    <loc>http://localhost:11317/he/tags/</loc>
+    <loc>http://localhost:1313/NPBlog/he/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:11317/en/tags/"
+                hreflang="en"
+                href="http://localhost:1313/NPBlog/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
-                href="http://localhost:11317/he/tags/"
+                href="http://localhost:1313/NPBlog/he/tags/"
                 />
   </url><url>
-    <loc>http://localhost:11317/he/</loc>
+    <loc>http://localhost:1313/NPBlog/he/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:11317/en/"
+                hreflang="en"
+                href="http://localhost:1313/NPBlog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="he"
-                href="http://localhost:11317/he/"
+                href="http://localhost:1313/NPBlog/he/"
                 />
   </url>
 </urlset>

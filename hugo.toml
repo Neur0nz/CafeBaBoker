@@ -53,9 +53,9 @@ theme = 'PaperMod'
   enabled = true
   title = "Cafe BaBoker"
   subtitle = "\"A mathematician is a machine for turning coffee into theorems.\" - Alfréd Rényi"
-  imageUrl = "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
-  imageTitle = "Mathematics"
-  imageLink = "https://github.com/yourusername"
+  imageUrl = "images/coffee-beans.jpg"
+  imageTitle = "Coffee Beans"
+  imageLink = "https://github.com/neur0nz"
 
 [menu]
   [[menu.main]]

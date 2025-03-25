@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on בלוג מתמטיקה</title>
-    <link>http://localhost:11317/he/tags/</link>
-    <description>Recent content in Tags on בלוג מתמטיקה</description>
+    <title>Tags on קפה בבוקר</title>
+    <link>http://localhost:1313/NPBlog/he/tags/</link>
+    <description>Recent content in Tags on קפה בבוקר</description>
     <generator>Hugo -- 0.144.0</generator>
     <language>he</language>
-    <atom:link href="http://localhost:11317/he/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/NPBlog/he/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

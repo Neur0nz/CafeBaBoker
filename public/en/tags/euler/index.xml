@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Euler on Mathematics Blog</title>
-    <link>http://localhost:11317/en/tags/euler/</link>
-    <description>Recent content in Euler on Mathematics Blog</description>
+    <title>Euler on Cafe BaBoker</title>
+    <link>http://localhost:1313/NPBlog/en/tags/euler/</link>
+    <description>Recent content in Euler on Cafe BaBoker</description>
     <generator>Hugo -- 0.144.0</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:11317/en/tags/euler/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/NPBlog/en/tags/euler/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Euler&#39;s Formula: The Most Beautiful Equation in Mathematics</title>
-      <link>http://localhost:11317/en/posts/eulers-formula/</link>
+      <link>http://localhost:1313/NPBlog/en/posts/eulers-formula/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:11317/en/posts/eulers-formula/</guid>
+      <guid>http://localhost:1313/NPBlog/en/posts/eulers-formula/</guid>
       <description>&lt;p&gt;Euler&amp;rsquo;s Formula is often called the most beautiful equation in mathematics. It connects five fundamental mathematical constants in a single, elegant equation:&lt;/p&gt;
 &lt;p&gt;$$
 e^{iπ} + 1 = 0
