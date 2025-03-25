@@ -1,4 +1,4 @@
-baseURL = 'https://neur0nz.github.io/HugoBlog/'
+baseURL = 'https://neur0nz.github.io/NPBlog/'
 languageCode = 'en-us'
 title = 'Cafe BaBoker'
 theme = 'PaperMod'
