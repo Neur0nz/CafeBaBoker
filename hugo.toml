@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Cafe BaBoker'
 theme = 'PaperMod'
 
+# Enable search index generation
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 # Enable math rendering
 [params]
   defaultTheme = "auto"
@@ -32,6 +36,26 @@ theme = 'PaperMod'
     mathjax = false
     katexVersion = "0.16.9"
     katexCDN = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist"
+  [params.search]
+    enable = true
+    type = "fuse"
+    content = true
+    placeholder = "Search through posts..."
+    maxResultLength = 10
+    snippetLength = 100
+    highlightTag = "em"
+    fuzzy = true
+    showEmptySections = true
+    showResults = true
+    showNoResults = true
+    defaultContent = true
+    [params.search.fuse]
+      isCaseSensitive = false
+      shouldSort = true
+      location = 0
+      distance = 100
+      threshold = 0.4
+      minMatchCharLength = 1
 
 # Math rendering settings
 [markup]
@@ -51,10 +75,6 @@ theme = 'PaperMod'
   resampleFilter = "Lanczos"
   anchor = "Smart"
 
-[params.homeInfoParams]
-  Title = "Welcome to My Mathematics Blog 👋"
-  Content = "Exploring the beauty of mathematics through articles, proofs, and visualizations."
-
 [params.profileMode]
   enabled = true
   title = "Cafe BaBoker"
@@ -62,6 +82,23 @@ theme = 'PaperMod'
   imageUrl = "images/coffee-beans.jpg"
   imageTitle = "Coffee Beans"
   imageLink = "https://github.com/neur0nz"
+  buttons = [
+    { name = "Posts", url = "/CafeBaBoker/posts" },
+    { name = "Archive", url = "/CafeBaBoker/archive" }
+  ]
+
+[params.homeInfoParams]
+  Title = "About Cafe BaBoker"
+  Content = """
+  Cafe BaBoker (קפה בבוקר) is a collaborative blog where we explore and discuss topics that interest us in:
+  * Mathematics
+  * Computer Science
+  * Physics
+  * Other subjects that spark our intellectual curiosity
+
+  ## Contact
+  If you'd like to write a guest post or have a suggestion, feel free to reach out to me at [nadavprr@gmail.com](mailto:nadavprr@gmail.com) or connect on [GitHub](https://github.com/neur0nz).
+  """
 
 # Giscus Comments Configuration
 [params.comments]
@@ -93,12 +130,17 @@ theme = 'PaperMod'
     url = "/posts/"
     weight = -90
   [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archive/"
+    weight = -88
+  [[menu.main]]
     identifier = "authors"
     name = "Authors"
     url = "/authors/"
     weight = -85
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = -80
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = -75
