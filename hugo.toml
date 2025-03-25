@@ -7,7 +7,7 @@ theme = 'PaperMod'
 [params]
   defaultTheme = "auto"
   ShowReadingTime = false
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -19,6 +19,7 @@ theme = 'PaperMod'
   ShowAuthorBio = true
   ShowAuthorSocial = true
   ShowAuthorLinks = true
+  ShowToc = true
   [params.math]
     enable = true
     katex = true
@@ -51,7 +52,7 @@ theme = 'PaperMod'
 [params.profileMode]
   enabled = true
   title = "Cafe BaBoker"
-  subtitle = "Exploring the beauty of mathematics"
+  subtitle = "\"A mathematician is a machine for turning coffee into theorems.\" - Alfréd Rényi"
   imageUrl = "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
   imageTitle = "Mathematics"
   imageLink = "https://github.com/yourusername"
