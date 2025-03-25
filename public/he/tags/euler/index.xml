@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Euler on בלוג מתמטיקה</title>
+    <link>http://localhost:11317/he/tags/euler/</link>
+    <description>Recent content in Euler on בלוג מתמטיקה</description>
+    <generator>Hugo</generator>
+    <language>he</language>
+    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:11317/he/tags/euler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Euler&#39;s Formula: The Most Beautiful Equation in Mathematics</title>
+      <link>http://localhost:11317/he/posts/eulers-formula/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:11317/he/posts/eulers-formula/</guid>
+      <description>&lt;p&gt;Euler&amp;rsquo;s Formula is often called the most beautiful equation in mathematics. It connects five fundamental mathematical constants in a single, elegant equation:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;e^{iπ} + 1 = 0&#xA;$$&lt;/p&gt;&#xA;&lt;h2 id=&#34;understanding-the-components&#34;&gt;Understanding the Components&lt;/h2&gt;&#xA;&lt;p&gt;This equation combines:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;e (Euler&amp;rsquo;s number, approximately 2.71828&amp;hellip;)&lt;/li&gt;&#xA;&lt;li&gt;i (the imaginary unit, √(-1))&lt;/li&gt;&#xA;&lt;li&gt;π (pi, approximately 3.14159&amp;hellip;)&lt;/li&gt;&#xA;&lt;li&gt;1 (the multiplicative identity)&lt;/li&gt;&#xA;&lt;li&gt;0 (the additive identity)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-complex-plane&#34;&gt;The Complex Plane&lt;/h2&gt;&#xA;&lt;p&gt;Euler&amp;rsquo;s Formula can be visualized on the complex plane:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;e^{iθ} = \cos(θ) + i\sin(θ)&#xA;$$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

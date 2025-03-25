@@ -1,0 +1,35 @@
+/* Ensure math content is always rendered LTR */
+.katex {
+    direction: ltr !important;
+    text-align: left !important;
+    unicode-bidi: embed;
+}
+
+/* Fix inline math in RTL context */
+.katex-display {
+    direction: ltr !important;
+    text-align: left !important;
+    unicode-bidi: embed;
+}
+
+/* Ensure math containers maintain LTR */
+.math {
+    direction: ltr !important;
+    text-align: left !important;
+    unicode-bidi: embed;
+}
+
+/* Force LTR direction for navigation and header components */
+.header,
+.nav,
+#menu,
+.logo,
+.logo-switches,
+.lang-switch {
+    direction: ltr !important;
+}
+
+/* Allow RTL for main content */
+.post-content {
+    direction: inherit;
+} 

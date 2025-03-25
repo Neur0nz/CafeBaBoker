@@ -1,0 +1,28 @@
+{{- /* Head custom content area start */ -}}
+{{- if .Site.Params.math.enable -}}
+    {{- if .Site.Params.math.katex -}}
+        <link rel="stylesheet" href="{{ .Site.Params.math.katexCDN }}/katex.min.css">
+        <script defer src="{{ .Site.Params.math.katexCDN }}/katex.min.js"></script>
+        <script defer src="{{ .Site.Params.math.katexCDN }}/contrib/auto-render.min.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                renderMathInElement(document.body, {
+                    delimiters: [
+                        {left: "$$", right: "$$", display: true},
+                        {left: "$", right: "$", display: false}
+                    ],
+                    throwOnError: false
+                });
+            });
+        </script>
+    {{- end -}}
+{{- end -}}
+{{ if .Params.rtl }}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        direction: rtl;
+    }
+</style>
+{{ end }}
+{{- /* Head custom content area end */ -}} 

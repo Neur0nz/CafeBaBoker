@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="authors-list">
+    <h1>Authors</h1>
+    <div class="authors-grid">
+        {{ range .Data.Pages }}
+        <div class="author-card">
+            {{ if .Params.avatar }}
+            <img src="{{ .Params.avatar }}" alt="{{ .Title }}" class="author-avatar">
+            {{ end }}
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ if .Params.role }}
+            <p class="author-role">{{ .Params.role }}</p>
+            {{ end }}
+            {{ if .Params.bio }}
+            <p class="author-bio">{{ .Params.bio }}</p>
+            {{ end }}
+            {{ if .Params.social }}
+            <div class="author-social">
+                {{ range .Params.social }}
+                <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" title="{{ .name }}">
+                    <i class="{{ .icon }}"></i>
+                </a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }} 

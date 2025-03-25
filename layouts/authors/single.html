@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article class="post-single">
+    <header class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
+        {{- if .Description }}
+        <div class="post-description">
+            {{ .Description }}
+        </div>
+        {{- end }}
+    </header>
+
+    {{- if .Content }}
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    {{- end }}
+
+    <div class="author-posts">
+        <h2>Posts by {{ .Title }}</h2>
+        <ul class="post-list">
+            {{- range where .Site.RegularPages "Params.authors" "intersect" (slice .File.BaseFileName) }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+</article>
+{{ end }} 

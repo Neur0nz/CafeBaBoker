@@ -1,0 +1,12 @@
+{{- if .Params.authors }}
+{{- $links := slice }}
+{{- range .Params.authors }}
+{{- $path := printf "/authors/%s" (. | urlize) }}
+{{- with $.Site.GetPage $path }}
+{{- $links = $links | append (printf "<a href='%s'>%s</a>" .RelPermalink .Title) }}
+{{- else }}
+{{- $links = $links | append . }}
+{{- end }}
+{{- end }}
+{{- delimit $links ", " | safeHTML }}
+{{- end -}} 

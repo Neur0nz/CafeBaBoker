@@ -1,0 +1,79 @@
+baseURL = 'https://neur0nz.github.io/HugoBlog/'
+languageCode = 'en-us'
+title = 'Cafe BaBoker'
+theme = 'PaperMod'
+
+# Enable math rendering
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  ShowAuthor = true
+  ShowAuthorAvatar = true
+  ShowAuthorBio = true
+  ShowAuthorSocial = true
+  ShowAuthorLinks = true
+  [params.math]
+    enable = true
+    katex = true
+    mathjax = false
+    katexVersion = "0.16.9"
+    katexCDN = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist"
+
+# Math rendering settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    lineNoStart = 1
+    lineNumbersInTable = true
+    style = "monokai"
+    tabWidth = 4
+
+# Image handling
+[imaging]
+  quality = 75
+  resampleFilter = "Lanczos"
+  anchor = "Smart"
+
+[params.homeInfoParams]
+  Title = "Welcome to My Mathematics Blog 👋"
+  Content = "Exploring the beauty of mathematics through articles, proofs, and visualizations."
+
+[params.profileMode]
+  enabled = true
+  title = "Cafe BaBoker"
+  subtitle = "Exploring the beauty of mathematics"
+  imageUrl = "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+  imageTitle = "Mathematics"
+  imageLink = "https://github.com/yourusername"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -100
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = -90
+  [[menu.main]]
+    identifier = "authors"
+    name = "Authors"
+    url = "/authors/"
+    weight = -85
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = -80
