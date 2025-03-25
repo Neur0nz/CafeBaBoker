@@ -1,4 +1,4 @@
-baseURL = 'https://neur0nz.github.io/NPBlog/'
+baseURL = 'https://neur0nz.github.io/CafeBaBoker/'
 languageCode = 'en-us'
 title = 'Cafe BaBoker'
 theme = 'PaperMod'
@@ -21,11 +21,11 @@ theme = 'PaperMod'
   ShowAuthorLinks = true
   ShowToc = true
   [params.assets]
-    favicon = "/NPBlog/favicon.ico"
-    favicon16x16 = "/NPBlog/favicon-16x16.png"
-    favicon32x32 = "/NPBlog/favicon-32x32.png"
-    apple_touch_icon = "/NPBlog/apple-touch-icon.png"
-    safari_pinned_tab = "/NPBlog/safari-pinned-tab.svg"
+    favicon = "/CafeBaBoker/favicon.ico"
+    favicon16x16 = "/CafeBaBoker/favicon-16x16.png"
+    favicon32x32 = "/CafeBaBoker/favicon-32x32.png"
+    apple_touch_icon = "/CafeBaBoker/apple-touch-icon.png"
+    safari_pinned_tab = "/CafeBaBoker/safari-pinned-tab.svg"
   [params.math]
     enable = true
     katex = true
@@ -68,7 +68,7 @@ theme = 'PaperMod'
   enabled = true
   provider = "giscus"
   [params.comments.giscus]
-    repo = "Neur0nz/NPBlog"
+    repo = "Neur0nz/CafeBaBoker"
     repoId = "R_kgDOOOUhRA"
     category = "Announcements"
     categoryId = "DIC_kwDOOOUhRM4Cocfc"
