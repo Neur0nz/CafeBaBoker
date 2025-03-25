@@ -20,6 +20,12 @@ theme = 'PaperMod'
   ShowAuthorSocial = true
   ShowAuthorLinks = true
   ShowToc = true
+  [params.assets]
+    favicon = "/NPBlog/favicon.ico"
+    favicon16x16 = "/NPBlog/favicon-16x16.png"
+    favicon32x32 = "/NPBlog/favicon-32x32.png"
+    apple_touch_icon = "/NPBlog/apple-touch-icon.png"
+    safari_pinned_tab = "/NPBlog/safari-pinned-tab.svg"
   [params.math]
     enable = true
     katex = true
@@ -56,6 +62,24 @@ theme = 'PaperMod'
   imageUrl = "images/coffee-beans.jpg"
   imageTitle = "Coffee Beans"
   imageLink = "https://github.com/neur0nz"
+
+# Giscus Comments Configuration
+[params.comments]
+  enabled = true
+  provider = "giscus"
+  [params.comments.giscus]
+    repo = "Neur0nz/NPBlog"
+    repoId = "R_kgDOOOUhRA"
+    category = "Announcements"
+    categoryId = "DIC_kwDOOOUhRM4Cocfc"
+    mapping = "pathname"
+    strict = "0"
+    reactionsEnabled = "0"
+    emitMetadata = "0"
+    inputPosition = "top"
+    theme = "preferred_color_scheme"
+    lang = "en"
+    loading = "lazy"
 
 [menu]
   [[menu.main]]
