@@ -2,6 +2,7 @@
 {{- /* Giscus */ -}}
 {{- if .Site.Params.comments.enabled }}
 {{- if eq .Site.Params.comments.provider "giscus" }}
+<div class="giscus_comments">
 <script src="https://giscus.app/client.js"
         data-repo="{{ .Site.Params.comments.giscus.repo }}"
         data-repo-id="{{ .Site.Params.comments.giscus.repoId }}"
@@ -17,5 +18,32 @@
         crossorigin="anonymous"
         async>
 </script>
+</div>
+<script async>
+        // Function to set the correct theme
+        function setGiscusTheme() {
+            const isDark = document.body.className.includes("dark");
+            const theme = isDark ? 'transparent_dark' : 'light';
+            document.querySelector("div.giscus_comments > script").setAttribute('data-theme', theme);
+        }
+
+        // Set initial theme
+        setGiscusTheme();
+
+        // Change theme on theme toggle click
+        document.querySelector('#theme-toggle').addEventListener('click', () => {
+            let g = document.querySelector('iframe.giscus-frame')
+            if (g) {
+                const isDark = document.body.className.includes("dark");
+                g.contentWindow.postMessage({
+                    giscus: {
+                        setConfig: {
+                            theme: isDark ? 'transparent_dark' : 'light'
+                        }
+                    }
+                }, 'https://giscus.app');
+            }
+        })
+    </script>
 {{- end }}
 {{- end }} 
