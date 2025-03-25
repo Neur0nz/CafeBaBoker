@@ -9,6 +9,5 @@ Welcome to Cafe BaBoker (קפה בבוקר), a collaborative blogging site where
 - Computer Science
 - Physics
 - And other topics that catch our interest.
-
 ## Contact
 If you’d like to write a guest post or have a suggestion, feel free to reach out to me at [nadavprr@gmail.com](mailto:nadavprr@gmail.com) or connect on [GitHub](https://github.com/neur0nz). We’d love to hear from you!
