@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Geometry on Cafe BaBoker</title>
-    <link>http://localhost:1313/tags/geometry/</link>
+    <link>http://localhost:1313/NPBlog/tags/geometry/</link>
     <description>Recent content in Geometry on Cafe BaBoker</description>
     <generator>Hugo -- 0.144.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/NPBlog/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fractals: Where Mathematics Meets Art</title>
-      <link>http://localhost:1313/posts/fractals/</link>
+      <link>http://localhost:1313/NPBlog/posts/fractals/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fractals/</guid>
+      <guid>http://localhost:1313/NPBlog/posts/fractals/</guid>
       <description>&lt;p&gt;Fractals are fascinating mathematical objects that exhibit self-similarity at different scales. They appear in nature, art, and mathematics, creating beautiful and complex patterns from simple rules.&lt;/p&gt;
 &lt;h2 id=&#34;the-mandelbrot-set&#34;&gt;The Mandelbrot Set&lt;/h2&gt;
 &lt;p&gt;One of the most famous fractals is the Mandelbrot set, defined by the iteration:&lt;/p&gt;
@@ -20,15 +20,15 @@
 z_{n+1} = z_n^2 + c
 $$&lt;/p&gt;
 &lt;p&gt;where z₀ = 0 and c is a complex number.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Mandelbrot Set&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/mandelbrot.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Mandelbrot Set&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/NPBlog/images/mandelbrot.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;fractal-dimension&#34;&gt;Fractal Dimension&lt;/h2&gt;
 &lt;p&gt;Unlike regular geometric shapes, fractals often have non-integer dimensions. The Hausdorff dimension D of a fractal can be calculated using:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Golden Ratio: Nature&#39;s Most Beautiful Number</title>
-      <link>http://localhost:1313/posts/golden-ratio/</link>
+      <link>http://localhost:1313/NPBlog/posts/golden-ratio/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/golden-ratio/</guid>
+      <guid>http://localhost:1313/NPBlog/posts/golden-ratio/</guid>
       <description>&lt;p&gt;The Golden Ratio, often denoted by the Greek letter φ (phi), is approximately equal to 1.618033988749895&amp;hellip; This remarkable number appears throughout nature, art, and architecture, earning its reputation as the &amp;ldquo;divine proportion.&amp;rdquo;&lt;/p&gt;
 &lt;h2 id=&#34;mathematical-definition&#34;&gt;Mathematical Definition&lt;/h2&gt;
 &lt;p&gt;The Golden Ratio can be defined algebraically as:&lt;/p&gt;

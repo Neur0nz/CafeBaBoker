@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cafe BaBoker</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/NPBlog/</link>
     <description>Recent content on Cafe BaBoker</description>
     <generator>Hugo -- 0.144.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/NPBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>פוסט בדיקה בעברית</title>
-      <link>http://localhost:1313/posts/hebrew-test/</link>
+      <link>http://localhost:1313/NPBlog/posts/hebrew-test/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hebrew-test/</guid>
+      <guid>http://localhost:1313/NPBlog/posts/hebrew-test/</guid>
       <description>&lt;h1 id=&#34;כותרת-ראשית&#34;&gt;כותרת ראשית&lt;/h1&gt;
 &lt;p&gt;זהו פוסט בדיקה בעברית עם תמיכה ב-RTL. נבדוק את כל סוגי הפורמטינג האפשריים.&lt;/p&gt;
 &lt;h2 id=&#34;רשימות&#34;&gt;רשימות&lt;/h2&gt;
@@ -69,9 +69,9 @@ $$&lt;/p&gt;
     </item>
     <item>
       <title>Fractals: Where Mathematics Meets Art</title>
-      <link>http://localhost:1313/posts/fractals/</link>
+      <link>http://localhost:1313/NPBlog/posts/fractals/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fractals/</guid>
+      <guid>http://localhost:1313/NPBlog/posts/fractals/</guid>
       <description>&lt;p&gt;Fractals are fascinating mathematical objects that exhibit self-similarity at different scales. They appear in nature, art, and mathematics, creating beautiful and complex patterns from simple rules.&lt;/p&gt;
 &lt;h2 id=&#34;the-mandelbrot-set&#34;&gt;The Mandelbrot Set&lt;/h2&gt;
 &lt;p&gt;One of the most famous fractals is the Mandelbrot set, defined by the iteration:&lt;/p&gt;
@@ -79,15 +79,15 @@ $$&lt;/p&gt;
 z_{n+1} = z_n^2 + c
 $$&lt;/p&gt;
 &lt;p&gt;where z₀ = 0 and c is a complex number.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Mandelbrot Set&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/mandelbrot.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Mandelbrot Set&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/NPBlog/images/mandelbrot.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;fractal-dimension&#34;&gt;Fractal Dimension&lt;/h2&gt;
 &lt;p&gt;Unlike regular geometric shapes, fractals often have non-integer dimensions. The Hausdorff dimension D of a fractal can be calculated using:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Euler&#39;s Formula: The Most Beautiful Equation in Mathematics</title>
-      <link>http://localhost:1313/posts/eulers-formula/</link>
+      <link>http://localhost:1313/NPBlog/posts/eulers-formula/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/eulers-formula/</guid>
+      <guid>http://localhost:1313/NPBlog/posts/eulers-formula/</guid>
       <description>&lt;p&gt;Euler&amp;rsquo;s Formula is often called the most beautiful equation in mathematics. It connects five fundamental mathematical constants in a single, elegant equation:&lt;/p&gt;
 &lt;p&gt;$$
 e^{iπ} + 1 = 0
@@ -109,9 +109,9 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>Math Rendering Test</title>
-      <link>http://localhost:1313/posts/math-test/</link>
+      <link>http://localhost:1313/NPBlog/posts/math-test/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/math-test/</guid>
+      <guid>http://localhost:1313/NPBlog/posts/math-test/</guid>
       <description>&lt;h2 id=&#34;inline-math&#34;&gt;Inline Math&lt;/h2&gt;
 &lt;p&gt;This is an inline equation: $E = mc^2$&lt;/p&gt;
 &lt;h2 id=&#34;display-math&#34;&gt;Display Math&lt;/h2&gt;
@@ -144,24 +144,24 @@ $$&lt;/p&gt;
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/NPBlog/about/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Welcome to my mathematics blog! I&amp;rsquo;m passionate about exploring and sharing the beauty of mathematics. This blog serves as a platform to:&lt;/p&gt;
+      <guid>http://localhost:1313/NPBlog/about/</guid>
+      <description>&lt;p&gt;Welcome to Cafe BaBoker (קפה בבוקר), a collaborative blogging site where a few friends share their thoughts on:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Share mathematical concepts and their applications&lt;/li&gt;
-&lt;li&gt;Present interesting proofs and problem-solving approaches&lt;/li&gt;
-&lt;li&gt;Discuss mathematical visualizations and their significance&lt;/li&gt;
-&lt;li&gt;Explore the intersection of mathematics with other fields&lt;/li&gt;
+&lt;li&gt;Mathematics&lt;/li&gt;
+&lt;li&gt;Computer Science&lt;/li&gt;
+&lt;li&gt;Physics&lt;/li&gt;
+&lt;li&gt;Other topics that catch our interest.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
-&lt;p&gt;I am a mathematics enthusiast who loves to explore and explain complex mathematical concepts in an accessible way. Through this blog, I aim to make mathematics more approachable and demonstrate its beauty to readers of all backgrounds.&lt;/p&gt;</description>
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;p&gt;If you’d like to write a guest post or have a suggestion, feel free to reach out to me at &lt;a href=&#34;mailto:nadavprr@gmail.com&#34;&gt;nadavprr@gmail.com&lt;/a&gt; or connect on &lt;a href=&#34;https://github.com/neur0nz&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Golden Ratio: Nature&#39;s Most Beautiful Number</title>
-      <link>http://localhost:1313/posts/golden-ratio/</link>
+      <link>http://localhost:1313/NPBlog/posts/golden-ratio/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/golden-ratio/</guid>
+      <guid>http://localhost:1313/NPBlog/posts/golden-ratio/</guid>
       <description>&lt;p&gt;The Golden Ratio, often denoted by the Greek letter φ (phi), is approximately equal to 1.618033988749895&amp;hellip; This remarkable number appears throughout nature, art, and architecture, earning its reputation as the &amp;ldquo;divine proportion.&amp;rdquo;&lt;/p&gt;
 &lt;h2 id=&#34;mathematical-definition&#34;&gt;Mathematical Definition&lt;/h2&gt;
 &lt;p&gt;The Golden Ratio can be defined algebraically as:&lt;/p&gt;
