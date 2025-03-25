@@ -4,17 +4,11 @@ date: 2024-03-20
 draft: false
 ---
 
-Welcome to my mathematics blog! I'm passionate about exploring and sharing the beauty of mathematics. This blog serves as a platform to:
-
-- Share mathematical concepts and their applications
-- Present interesting proofs and problem-solving approaches
-- Discuss mathematical visualizations and their significance
-- Explore the intersection of mathematics with other fields
-
-## About Me
-
-I am a mathematics enthusiast who loves to explore and explain complex mathematical concepts in an accessible way. Through this blog, I aim to make mathematics more approachable and demonstrate its beauty to readers of all backgrounds.
+Welcome to Cafe BaBoker (קפה בבוקר), a collaborative blogging site where a few friends share our thoughts on:
+- Mathematics
+- Computer Science
+- Physics
+- And other topics that catch our interest.
 
 ## Contact
-
-Feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com) or connect with me on [GitHub](https://github.com/yourusername). 
+If you’d like to write a guest post or have a suggestion, feel free to reach out to me at [nadavprr@gmail.com](mailto:nadavprr@gmail.com) or connect on [GitHub](https://github.com/neur0nz). We’d love to hear from you!
